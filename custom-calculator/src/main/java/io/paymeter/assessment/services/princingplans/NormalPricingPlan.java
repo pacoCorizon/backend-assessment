@@ -15,17 +15,13 @@
  */
 package io.paymeter.assessment.services.princingplans;
 
-import io.paymeter.assessment.Ticket;
 import io.paymeter.assessment.pricing.Money;
 import io.paymeter.assessment.services.utilities.TimingUtilities;
 import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.stereotype.Component;
-import org.springframework.util.StringUtils;
 
 /**
  *

@@ -22,18 +22,21 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  *
- * @author oem
+ * @author perezdf
  */
-
 @Configuration
 @ComponentScan
 public class CustomCalculatorAdapterConfig {
 
+    /**
+     * According with the documentation is equivalent to ISO-8601
+     * https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE
+     *
+     * @return date time formatter ISO-8601
+     */
     @Bean
     public DateTimeFormatter getDateTimeFormatter() {
 
-        // According with the documentation is equivalent to ISO-8601 
-        //https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE
         return DateTimeFormatter.ISO_LOCAL_DATE_TIME;
     }
 

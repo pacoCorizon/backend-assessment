@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"io.paymeter.assessment"},{"l":"io.paymeter.assessment.ports.primary"},{"l":"io.paymeter.assessment.ports.secundary"},{"l":"io.paymeter.assessment.pricing"}];updateSearchResults();
